@@ -1,0 +1,66 @@
+body{
+    background-color: lightblue;
+}
+
+.base{
+    background-color: gray;
+    width: 420px;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 475px;
+    box-shadow: 5px 5px 15px rgba(2, 49, 63, 0.5) ;
+}
+.dsply{
+    width: 88%;
+    background-color: lightgray;
+    border: 2px black solid;
+    margin: 20px;
+    height: 70px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+    border-radius: 5px;
+}
+
+.btn{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 77px;
+    height: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btnClear{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 77px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 5px;
+    /* background-color: rgb(182, 234, 255); */
+}
+
+.btnOprtr{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 77px;
+    height: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(252, 239, 168);
+}
+
+.btnAnswr{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 77px;
+    height: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 185, 55);
+}

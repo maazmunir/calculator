@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="base">
+        <div>
+            <input id="dsply" class="dsply" type="text">
+        </div>
+        <div>
+            <button class="btnClear" onclick="clearinput()">C</button>
+            <button class="btnOprtr" onclick="soon()">%</button>
+            <button class="btnOprtr" onclick="soon()">x²</button>
+            <button class="btnOprtr" onclick="number('/')">/</button>
+        </div>
+        <div>
+            <button class="btn" onclick="number('7')">7</button>
+            <button class="btn" onclick="number('8')">8</button>
+            <button class="btn" onclick="number('9')">9</button>
+            <button class="btnOprtr" onclick="number('*')">X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="number('4')">4</button>
+            <button class="btn" onclick="number('5')">5</button>
+            <button class="btn" onclick="number('6')">6</button>
+            <button class="btnOprtr" onclick="number('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="number('1')">1</button>
+            <button class="btn" onclick="number('2')">2</button>
+            <button class="btn" onclick="number('3')">3</button>
+            <button class="btnOprtr" onclick="number('+')">+</button>
+        </div>
+        <div>
+            <button class="btn" onclick="number('0')">0</button>
+            <button class="btn" onclick="number('00')">00</button>
+            <button class="btn" onclick="soon()">.</button>
+            <button class="btnAnswr" onclick="getAnswer()">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
